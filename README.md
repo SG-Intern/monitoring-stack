@@ -182,6 +182,16 @@ The dashboard contains:
 
 ## 📈 PromQL Queries
 
+## 📌 Five Useful Metrics
+
+| Metric | Meaning |
+|---|---|
+| `node_cpu_seconds_total` | Shows the amount of CPU time spent in different CPU states such as idle and working. |
+| `node_memory_MemAvailable_bytes` | Shows how much memory is currently available for use. |
+| `node_memory_MemTotal_bytes` | Shows the total amount of system memory. |
+| `node_filesystem_size_bytes` | Shows the total size of a filesystem or disk. |
+| `node_network_receive_bytes_total` | Shows the total amount of data received by a network interface. |
+
 ### CPU Usage
 
 ```promql
